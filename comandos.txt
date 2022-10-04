@@ -1,0 +1,46 @@
+COMANDOS
+cd .. :subir de directorio
+pwd : directorio actual
+cd algo : ruta relativa
+cd /algo :ruta directa
+ls -l : directorios ocultos
+ls : listado directorios
+-Caracteres (ls -l):
+   directorio : carpeta que incluye más carpetas
+   d : directorio rwx rwx rwx
+   > 1er rwx : propietario
+   > 2o rwx : grupo
+   > 3er rwx : todos los usuarios (r__ : si no es el usuario propietario solo puede leer)
+   - no es un directorio
+   número de la segunda columna : elementos
+   5a columna: tamaño en bites (4096 predeterminado)
+   6a columna : fecha de creacion
+ls -al
+clear o control l : limpiar
+ls -R :todos los directorios y sus subdirectorios
+history : historial 
+file /etc : nos dice que es
+which cp : muestra el path
+echo $PATH : muestra directorios donde puede estar un comando ejecuble
+echo :muestra lo que le pongas a continuacion
+algo=algo :estableces una variable ejecutable
+printenv : muestra todas las variables del entorno
+echo $algo : para ver variable
+export ALGO="algo"
+PATH=$PATH:/home/oscar/bin :añadir direcotrios
+$ :valor de la variable
+cat : muestra el contenido del fichero
+mkdir algo : crear directorio
+rmdir algo : borrar directorio si esta vacio				
+rm -r nombredirectorio : borra todo lo que haya en un fichero
+touch algo.txt : crear fichero
+echo "hola mundo" > fichero : para escribir dentro de un fichero
+cat fichero : para leer el fichero
+less fichero : para buscar dentro del fichero con el /
+echo "algo" : para imprimir en pantalla
+cp : para copiar
+man comando : ver la funcion del comando
+c : crear
+v : verbous 
+f : fichero
+tar cvf : agrupar ficheros
